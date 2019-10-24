@@ -1,5 +1,87 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q5box{
+  text-align:center;
+  line-height:100px;
+  margin:0 auto;
+  width:500px;
+  height:500px;
+  background-color:#ecf1f2;
+}
+.square{
+  width:100px;
+  height:100px;
+}
+.nine{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background-color:#2b69a3;
+}
+.one{
+  position:relative;
+  bottom:160px;
+  left:200px;
+  background-color:#ffefd3;
+}
+.two{
+  position:relative;
+  background-color:#7084de;
+  bottom:480px;
+  left:280px;
+  z-index:2;
+}
+.three{
+  position:relative;
+  background-color:#d0ecea;
+  bottom:500px;
+  left:360px;
+  z-index:3;
+}
+.four{
+  position:relative;
+  background-color:#8b7a5e;
+  left:280px;
+  bottom:120px;
+  z-index:4;
+}
+.five{
+  position:relative;
+  top:260px;
+  left:200px;
+  background-color:#9fd6d2;
+  z-index:5;
+}
+.six{
+  position:relative;
+  background-color:#fffee4;
+  bottom:220px;
+  left:120px;
+  z-index:6;
+}
+.seven{
+  position:relative;
+  left:40px;
+  bottom:100px;
+  background-color:#deae70;
+  z-index:7;
+}
+.eight{
+  position:relative;
+  background-color:#de70cf;
+  top:120px;
+  left:120px;
+  z-index:8;
+}
+.eight:after{
+  content:"";
+  display:block;
+  position:relative;
+  background-color:#ffefd3; width:20px;
+  height:20px;
+  bottom:100px;
+  left:80px;
+  z-index:9;
+ }
 /* 回答はここに書いてね */
