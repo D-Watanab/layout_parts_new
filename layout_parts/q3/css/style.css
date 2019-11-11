@@ -2,32 +2,32 @@
 
 /* 回答はここに書いてね */
 .content{
-  table-layout:auto;
-  width:100%;
-  text-align:center;
-  border:solid #dedede 1px;
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+  border: solid #dedede 1px;
 }
-table th{
-  background-color:#2244aa;
-  color:white;
-  padding:10px;
-  font-size:18px;
-  line-height:26px;
-  border:solid #dedede 1px;
+.content th{
+  background-color: #2244aa;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  border: solid #dedede 1px;
 }
-tbody td{
-  font-size:16px;
-  line-height:22px;
-  padding:10px;
-  border:solid #dedede 1px;
+.content tbody td{
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: solid #dedede 1px;
 }
-tbody tr{
-  border:solid #dedede 1px;
+.content tbody tr{
+  border: solid #dedede 1px;
 }
-tbody tr:nth-child(2n){
-  background-color:#ecf1f2;
+.content tbody tr:nth-child(2n){
+  background-color: #ecf1f2;
 }
-tbody tr:last-child{
-  border-top:dashed #000 2px;
+.content tbody tr:last-child{
+  border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

@@ -4,13 +4,15 @@
 
 /* text */
 .q6_text{
-  width: auto;
-  background-color: #e6f2ff;
-  padding: 10px;
+  background-color: #fff;
   text-align: center;
 }
 .align{
-  display:inline-block;
+  display: inline-block;
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px;
+  /* p領域に色を付け横幅指定＆Padding指定 */
 }
 /* margin */
 .q6_margin{
@@ -23,7 +25,6 @@
 
 /* table */
 .inner{
-  width: auto;
   display: table-cell;
   vertical-align: middle;
 }
@@ -42,41 +43,41 @@
 
 /* flex */
 .q6flex{
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexin{
-  background-color:#fff;
-  padding:10px;
+  background-color: #fff;
+  padding: 10px;
 }
 
 
 /* position */
 .q6absolute{
-  position:relative;
+  position: relative;
 }
 
 .absolute{
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  margin:auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 
 
 .transouter{
-  position:relative;
+  position: relative;
 }
 
 .transform{
-  position:absolute;
-  top:50%;
-  left:50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translateY(-50%)translateX(-50%);
   -webkit-transform: translateY(-50%)translateX(-50%);
 }

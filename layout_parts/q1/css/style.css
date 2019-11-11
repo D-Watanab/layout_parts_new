@@ -12,19 +12,19 @@
   background-color: #3274ae;
   padding: 20px;
   margin-left: 20px;
-  float: eft;
- }
+  float: left;
+}
  .q1__content__text{
   background-color: #eaf4ff;
   padding: 20px;
   border: 10px solid #022336;
- }
+}
  .q1__content__box:first-child{
-   margin-left: 0px;
- }
+  margin-left: 0px;
+}
  .clearfix:after{
   display: block;
   content: "";
   clear: both;
- }
+}
 /* 回答はここに書いてね */
