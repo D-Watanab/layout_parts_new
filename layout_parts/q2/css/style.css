@@ -2,33 +2,31 @@
 
 /* 回答はここに書いてね */
 .box{
-  background-color:#eff3f4;
-  width:940px;
+  background-color: #eff3f4;
+  width: 940px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
 }
 .main{
-  font-size:18px;
-  line-height:22px;
+  font-size: 18px;
+  line-height: 22px;
 }
 .img_left{
-  margin:0 auto;
-  padding-right:20px;
-  padding-bottom:10px;
-  float:left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
 }
 .img_right{
-  margin:0 auto;
-  padding-left:20px;
-  padding-bottom:10px;
-  float:right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  float: right;
 }
 .clearfix:after{
   display: block;
   content: "";
   clear: both;
  }
- p{
+ .para{
   word-break: break-all;
  }
 /* 回答はここに書いてね */

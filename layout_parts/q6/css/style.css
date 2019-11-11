@@ -4,39 +4,39 @@
 
 /* text */
 .q6_text{
-  width:90px;
-  margin:auto;
-  text-align:center;
-  background-color:#e6f2ff;
-  padding:10px;
-  display: block;
+  width: auto;
+  background-color: #e6f2ff;
+  padding: 10px;
+  text-align: center;
 }
-
+.align{
+  display:inline-block;
+}
 /* margin */
 .q6_margin{
-  margin:0 auto;
-  width:90px;
-  text-align:center;
+  margin: 0 auto;
+  width: 90px;
+  text-align: center;
   background-color: #e6f2ff;
-  padding:10px;
+  padding: 10px;
 }
 
 /* table */
 .inner{
-  width:auto;
-  display:table-cell;
-  vertical-align:middle;
+  width: auto;
+  display: table-cell;
+  vertical-align: middle;
 }
 .outer{
-  margin: 0 auto;
-  display:table;
+  display: table;
+  text-align: center;
 }
 .q6_3in{
-  margin: 0 auto;
-  width:40px;
-  text-align:center;
-  background-color:#fff;
-  padding:10px;
+  width: 40px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+
 }
 
 

@@ -15,19 +15,19 @@ table th{
   line-height:26px;
   border:solid #dedede 1px;
 }
-table td{
+tbody td{
   font-size:16px;
   line-height:22px;
   padding:10px;
   border:solid #dedede 1px;
 }
-table tr{
+tbody tr{
   border:solid #dedede 1px;
 }
-table tr:nth-child(2n+1){
+tbody tr:nth-child(2n){
   background-color:#ecf1f2;
 }
-table tr:last-child{
+tbody tr:last-child{
   border-top:dashed #000 2px;
 }
 /* 回答はここに書いてね */
