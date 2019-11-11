@@ -3,16 +3,16 @@
 /* 回答はここに書いてね */
 /* float */
 div{
-  font-size:16px;
+  font-size: 16px;
 }
 .float{
-  width:225px;
-  float:left;
-  margin-left:50px;
-  box-sizing:border-box;
+  width: 225px;
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
 }
 .float:first-child{
-  margin-left:0;
+  margin-left: 0;
 }
 .clearfix:after {
   display: block;
@@ -23,49 +23,64 @@ div{
 
 /* table */
 .table{
-  display:table;
+  display: table;
   table-layout: fixed;
 
 }
 .cell{
-  display:table-cell;
+  display: table-cell;
   vertical-align: middle;
-  width:225px;
+  width: 225px;
 }
 .cell:last-child{
-  margin-left:50px;
+  padding-left: 50px;
 }
 
 
 
 /* inline */
 .inline{
-  width:225px;
-  margin-left:40px;
-  box-sizing:border-box;  display:inline-block;
+  width: 225px;
+  margin-left: 40px;
+  box-sizing: border-box; 
+  display: inline-block;
   vertical-align: middle;
 }
 .inline:first-child{
-  margin-left:0;
+  margin-left: 0;
 }
 
 
 
 /* flex */
 .flex{
-  display:flex;
-  justify-content:space-around;
-  align-items:flex-end;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 
 }
+
 .flexin{
-  width:225px;
-
+  width: 225px;
+  margin-left: 20px;
 }
 
+.flexin:last-child{
+  margin-right: 20px;
+}
 
 
 /* inline-blocck,margin */
 
+.block{
+  width: 300px;
+  display: inline-block;
+  padding-right: 50px;
+}
 
+.last{
+  width: 100%;
+  display: inline-block;
+  margin-left: -300px;
+}
 /* 回答はここに書いてね */

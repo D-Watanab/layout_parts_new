@@ -5,22 +5,22 @@
   margin: 0 auto;
   width: 900px;
   background-color: #eff3f4;
-  padding:20px;
+  padding: 20px;
 }
 .q1__content__box{
-  width:230px;
-  background-color:#3274ae;
-  padding:20px;
-  margin-left:20px;
-  float:left;
+  width: 230px;
+  background-color: #3274ae;
+  padding: 20px;
+  margin-left: 20px;
+  float: eft;
  }
  .q1__content__text{
-  background-color:#eaf4ff;
-  padding:20px;
-  border:10px solid #022336;
+  background-color: #eaf4ff;
+  padding: 20px;
+  border: 10px solid #022336;
  }
  .q1__content__box:first-child{
-   margin-left:0px;
+   margin-left: 0px;
  }
  .clearfix:after{
   display: block;
