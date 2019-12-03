@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.fukidashi{
+  margin: 0 auto;
+  width: 500px;
+  background-color: #fff;
+  border: 5px solid #222;
+  border-radius:30px;
+  position:relative;
+  }
+    
+.fukidashi:before {
+  border: 20px solid transparent;
+  border-top-color: #fff;
+  border-bottom-width: 0;
+  bottom: -13px;
+  content: "";
+  display: block;
+  left: 30px;
+  position: absolute;
+  width: 0;
+  z-index: 1;
+}
+  
+.fukidashi:after {
+  border: 20px solid transparent;
+  border-top-color: #222;
+  border-bottom-width: 0;
+  bottom: -20px;
+  content: "";
+  display: block;
+  left: 30px;
+  position: absolute;
+  width: 0;
+}
+.text{
+  margin: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 /* 回答はここに書いてね */

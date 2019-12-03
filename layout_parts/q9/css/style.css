@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* transition */
+.q9_trans{
+  margin: 0 auto;
+  position: relative;
+  width: 500px;
+  height: 333px;
+  overflow: hidden;
+  cursor: pointer;
+}
 
+.q9_trans_image{
+  width: 100%;
+  transition: all .5s ease-in-out;
+}
+.q9_trans:hover .q9_trans_image{
+  transform: scale(1.5);
+}
+
+.q9_trans_textbox{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  transition: all .5s;
+}
+
+.q9_trans:hover .q9_trans_textbox{
+  bottom: 0;
+}
+
+.q9_trans_text{
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  word-break: break-all;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+
+/* animation */
+.q9_anim{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  animation: r1 1.1s linear infinite;
+}
+@keyframes r1{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
 /* 回答はここに書いてね */

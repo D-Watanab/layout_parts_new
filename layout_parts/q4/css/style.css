@@ -18,12 +18,10 @@
 .bar{
   display: table-cell;
   padding: 20px 0;
-  /* ショートハンド調べる */
 }
 .orange{
   background-color: #fbc8b8;
   width: 100px;
-  
 }
 .blue{
   background-color: #b6d8ed;

@@ -70,17 +70,19 @@ div{
 }
 
 
-/* inline-blocck,margin */
-
+/* inline-block,margin */
 .block{
-  width: 300px;
   display: inline-block;
-  padding-right: 50px;
+  width: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
 }
 
-.last{
-  width: 100%;
+.negative{
   display: inline-block;
-  margin-left: -300px;
+  width: 100%;
+  margin-left: -305px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 /* 回答はここに書いてね */
