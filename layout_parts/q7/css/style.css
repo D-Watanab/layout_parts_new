@@ -39,9 +39,12 @@ div{
 
 
 /* inline */
+.inline-block{
+  font-size: 0;
+}
 .inline{
   width: 225px;
-  margin-left: 40px;
+  margin-left: 50px;
   box-sizing: border-box; 
   display: inline-block;
   vertical-align: middle;
@@ -71,6 +74,9 @@ div{
 
 
 /* inline-block,margin */
+.negative{
+  font-size: 0;
+}
 .block{
   display: inline-block;
   width: 300px;
@@ -81,7 +87,7 @@ div{
 .negative{
   display: inline-block;
   width: 100%;
-  margin-left: -305px;
+  margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }
