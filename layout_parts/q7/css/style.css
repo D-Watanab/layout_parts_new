@@ -2,9 +2,7 @@
 
 /* 回答はここに書いてね */
 /* float */
-div{
-  font-size: 16px;
-}
+
 .float{
   width: 225px;
   float: left;
@@ -28,25 +26,29 @@ div{
 
 }
 .cell{
+  padding-right: 50px;
   display: table-cell;
   vertical-align: middle;
   width: 225px;
 }
 .cell:last-child{
-  padding-left: 50px;
+  padding-right: 0;
 }
 
 
 
 /* inline */
+
 .inline-block{
-  font-size: 0;
+  font-size: 0px;
 }
 .inline{
+  display: inline-block;
+  font-size: 16px;
   width: 225px;
   margin-left: 50px;
   box-sizing: border-box; 
-  display: inline-block;
+
   vertical-align: middle;
 }
 .inline:first-child{
@@ -65,11 +67,10 @@ div{
 
 .flexin{
   width: 225px;
-  margin-left: 20px;
+  box-sizing: border-box;
 }
 
 .flexin:last-child{
-  margin-right: 20px;
 }
 
 
@@ -90,5 +91,9 @@ div{
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
+}
+
+.q7__box__text{
+  font-size:16px;
 }
 /* 回答はここに書いてね */
